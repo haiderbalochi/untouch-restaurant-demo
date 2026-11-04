@@ -1,0 +1,103 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "products": {
+      ".indexOn": ["available"],
+      ".read": "(auth != null && auth.token.admin === true) || (query.orderByChild === 'available' && query.equalTo === true)",
+      "$productId": {
+        ".read": "(auth != null && auth.token.admin === true) || data.child('available').val() === true",
+        ".write": "auth != null && auth.token.admin === true"
+      }
+    },
+
+    "categories": {
+      ".indexOn": ["active"],
+      ".read": "(auth != null && auth.token.admin === true) || (query.orderByChild === 'active' && query.equalTo === true)",
+      "$categoryId": {
+        ".read": "(auth != null && auth.token.admin === true) || data.child('active').val() === true",
+        ".write": "auth != null && auth.token.admin === true"
+      }
+    },
+
+    "banners": {
+      ".indexOn": ["active"],
+      ".read": "(auth != null && auth.token.admin === true) || (query.orderByChild === 'active' && query.equalTo === true)",
+      "$bannerId": {
+        ".read": "(auth != null && auth.token.admin === true) || data.child('active').val() === true",
+        ".write": "auth != null && auth.token.admin === true"
+      }
+    },
+
+    "restaurantSettings": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true"
+    },
+
+    "reviews": {
+      ".indexOn": ["status", "productId"],
+      ".read": "(auth != null && auth.token.admin === true) || (query.orderByChild === 'status' && query.equalTo === 'approved')",
+      "$reviewId": {
+        ".read": "(auth != null && auth.token.admin === true) || data.child('status').val() === 'approved'",
+        ".write": "(auth != null && auth.token.admin === true) || (auth != null && !data.exists() && newData.child('userId').val() === auth.uid && newData.child('status').val() === 'pending' && newData.child('rating').isNumber() && newData.child('rating').val() >= 1 && newData.child('rating').val() <= 5 && newData.child('comment').isString() && newData.child('comment').val().length <= 800)"
+      }
+    },
+
+    "users": {
+      ".read": "auth != null && auth.token.admin === true",
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || auth.token.admin === true)",
+        ".write": "auth != null && (auth.uid === $uid || auth.token.admin === true)"
+      }
+    },
+
+    "addresses": {
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || auth.token.admin === true)",
+        ".write": "auth != null && (auth.uid === $uid || auth.token.admin === true)"
+      }
+    },
+
+    "carts": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+
+    "orders": {
+      ".read": "auth != null && auth.token.admin === true",
+      ".write": false,
+      "$orderId": {
+        ".write": false
+      }
+    },
+
+    "customerOrders": {
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || auth.token.admin === true)",
+        ".write": false
+      }
+    },
+
+    "coupons": {
+      ".read": "auth != null && auth.token.admin === true",
+      ".write": "auth != null && auth.token.admin === true"
+    },
+
+    "newsletter": {
+      "$entryId": {
+        ".read": "auth != null && auth.token.admin === true",
+        ".write": "newData.hasChildren(['email']) && newData.child('email').isString() && newData.child('email').val().length > 3 && newData.child('email').val().length < 200"
+      }
+    },
+
+    "messages": {
+      "$messageId": {
+        ".read": "auth != null && auth.token.admin === true",
+        ".write": "newData.hasChildren(['name', 'email', 'message']) && newData.child('message').isString() && newData.child('message').val().length > 0 && newData.child('message').val().length <= 1200"
+      }
+    }
+  }
+}

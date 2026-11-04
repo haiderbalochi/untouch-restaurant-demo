@@ -1,0 +1,3058 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Haider Baloch",
+      "email": "admin@untouch.pk",
+      "phone": "+92 300 1234567",
+      "role": "admin",
+      "provider": "local",
+      "createdAt": "2026-07-04T07:18:00.000Z",
+      "preferences": {
+        "orderUpdates": true,
+        "offers": true
+      },
+      "photoURL": "",
+      "passwordHash": "cdc539ef05167beb33b93f9c410bfc5603bd5f2cd980ac7eea56d3f0f9286e57b01d058933e222bed09ecf2f42b6ed04157162a199c6bf8768dc04752f0ab053",
+      "passwordSalt": "f15dbf0010de6e1c0b580c8170cd29e7"
+    },
+    {
+      "id": "user-demo",
+      "name": "Zara Ahmed",
+      "email": "demo@untouch.pk",
+      "phone": "+92 321 9876543",
+      "role": "customer",
+      "provider": "local",
+      "createdAt": "2026-08-13T07:38:00.000Z",
+      "preferences": {
+        "orderUpdates": true,
+        "offers": true
+      },
+      "photoURL": "",
+      "passwordHash": "c9f3632570f53381fbc1aca520a6aa2ac91f420a5736acd4d317e896eb838a3d38e21acdd99d9474ecf804e2269476c6946af1f32e184704b1e036e6bb924e42",
+      "passwordSalt": "ce6ba115b90c42e43532bd9fc19b1e52"
+    },
+    {
+      "id": "user-ali",
+      "name": "Ali Raza",
+      "email": "ali@example.com",
+      "phone": "+92 333 4567890",
+      "role": "customer",
+      "provider": "local",
+      "createdAt": "2026-08-28T07:40:00.000Z",
+      "preferences": {
+        "orderUpdates": true,
+        "offers": false
+      },
+      "photoURL": "",
+      "passwordHash": "8503c1e34d54f0efc01ab37bd264a1b9418c46f582454f6c7149def0b961cde11b67930b5473419c83c0b50dbfa968c17eecf12e81128c8c3e95dc5013f67f7d",
+      "passwordSalt": "5bf52c5e334d97caf5114954edc2332f"
+    },
+    {
+      "id": "user-fatima",
+      "name": "Fatima Noor",
+      "email": "fatima@example.com",
+      "phone": "+92 345 1122334",
+      "role": "customer",
+      "provider": "local",
+      "createdAt": "2026-09-12T07:20:00.000Z",
+      "preferences": {
+        "orderUpdates": true,
+        "offers": true
+      },
+      "photoURL": "",
+      "passwordHash": "5fbb21ed62b5534a57d7ebbca44b007700fd1a50a1676cfa95116fa2bf533fdeaff642f0d9f998bf12a7fbc826fe5ed14f3c95c495cb359523c0b352bdf87f96",
+      "passwordSalt": "23ceef53bdc608c354be5203b2a80bd5"
+    },
+    {
+      "id": "user-hamza",
+      "name": "Hamza Siddiqui",
+      "email": "hamza@example.com",
+      "phone": "+92 301 5566778",
+      "role": "customer",
+      "provider": "local",
+      "createdAt": "2026-10-02T07:06:00.000Z",
+      "preferences": {
+        "orderUpdates": false,
+        "offers": true
+      },
+      "photoURL": "",
+      "passwordHash": "b411cc5006c7b908b5b9b11681271a2f34fdf5c122740e42f4d3421b415097f2864669964aae52b34e283ac4e92eba6ec06bea1675b1d8c5bfcb31ce06ee73fe",
+      "passwordSalt": "639a6b681ac8559ce0d7e331ec6a6fb6"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "addr-zara-home",
+      "userId": "user-demo",
+      "label": "Home",
+      "house": "Apartment 4B",
+      "street": "26th Street",
+      "area": "DHA Phase V",
+      "city": "Karachi",
+      "postalCode": "75500",
+      "instructions": "Third gate on the left, blue door. Call on arrival.",
+      "isDefault": true,
+      "createdAt": "2026-08-23T07:39:00.000Z"
+    },
+    {
+      "id": "addr-zara-work",
+      "userId": "user-demo",
+      "label": "Office",
+      "house": "Floor 9, Tower B",
+      "street": "I.I. Chundrigar Road",
+      "area": "Saddar",
+      "city": "Karachi",
+      "postalCode": "74200",
+      "instructions": "Reception will call up. Leave with the front desk if needed.",
+      "isDefault": false,
+      "createdAt": "2026-09-22T07:15:00.000Z"
+    },
+    {
+      "id": "addr-ali",
+      "userId": "user-ali",
+      "label": "Home",
+      "house": "House 17",
+      "street": "Street 4",
+      "area": "Gulshan-e-Iqbal",
+      "city": "Karachi",
+      "postalCode": "75300",
+      "instructions": "",
+      "isDefault": true,
+      "createdAt": "2026-09-02T07:23:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-untouchable",
+      "name": "The Untouchable",
+      "slug": "the-untouchable",
+      "description": "Our signature. Two 90g patties smashed hard on the plancha, folded with aged cheddar and finished with bone marrow butter and a jam made from onions charred over live coals. Served on a toasted milk bun with house pickles.",
+      "shortDescription": "Double smash, bone marrow butter, burnt onion jam.",
+      "images": [
+        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1890,
+      "discountPrice": 1690,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "ingredients": [
+        "100% grass-fed beef",
+        "Aged cheddar",
+        "Bone marrow butter",
+        "Burnt onion jam",
+        "House pickles",
+        "Milk bun"
+      ],
+      "prepTime": "18 min",
+      "calories": 780,
+      "badges": [
+        "Signature",
+        "Best Seller"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "single",
+          "name": "Single patty",
+          "priceDelta": -350
+        },
+        {
+          "id": "double",
+          "name": "Double patty",
+          "priceDelta": 0
+        },
+        {
+          "id": "triple",
+          "name": "Triple patty",
+          "priceDelta": 400
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-cheddar",
+          "name": "Aged cheddar",
+          "price": 150
+        },
+        {
+          "id": "add-jalapeno",
+          "name": "Pickled jalapeños",
+          "price": 90
+        },
+        {
+          "id": "add-bacon",
+          "name": "Smoked beef bacon",
+          "price": 250
+        },
+        {
+          "id": "add-sauce",
+          "name": "Extra ember sauce",
+          "price": 80
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 214,
+      "createdAt": "2026-08-23T07:36:00.000Z",
+      "updatedAt": "2026-10-30T07:16:00.000Z"
+    },
+    {
+      "id": "p-smoke-ember",
+      "name": "Smoke & Ember",
+      "slug": "smoke-and-ember",
+      "description": "A beef patty charred over open flame, layered with smoked gouda, pickled red chilli and our ember sauce — a slow-burned tomato and chilli reduction with a whisper of smoke. For those who like the edges a little darker.",
+      "shortDescription": "Charcoal beef, smoked gouda, ember sauce.",
+      "images": [
+        "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1750,
+      "discountPrice": null,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "ingredients": [
+        "Charcoal-grilled beef",
+        "Smoked gouda",
+        "Pickled red chilli",
+        "Ember sauce",
+        "Brioche bun"
+      ],
+      "prepTime": "16 min",
+      "calories": 720,
+      "badges": [
+        "Spicy"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "single",
+          "name": "Single patty",
+          "priceDelta": -300
+        },
+        {
+          "id": "double",
+          "name": "Double patty",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-cheddar",
+          "name": "Aged cheddar",
+          "price": 150
+        },
+        {
+          "id": "add-jalapeno",
+          "name": "Pickled jalapeños",
+          "price": 90
+        },
+        {
+          "id": "add-bacon",
+          "name": "Smoked beef bacon",
+          "price": 250
+        },
+        {
+          "id": "add-sauce",
+          "name": "Extra ember sauce",
+          "price": 80
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 132,
+      "createdAt": "2026-09-07T07:49:00.000Z",
+      "updatedAt": "2026-10-30T07:25:00.000Z"
+    },
+    {
+      "id": "p-seoul-bird",
+      "name": "Seoul Bird",
+      "slug": "seoul-bird",
+      "description": "Buttermilk-brined chicken thigh, double dredged and fried until shatteringly crisp, brushed with a gochujang honey glaze. Topped with sesame slaw and quick cucumber on a soft potato bun.",
+      "shortDescription": "Crispy chicken, gochujang glaze, sesame slaw.",
+      "images": [
+        "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1490,
+      "discountPrice": null,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "ingredients": [
+        "Buttermilk chicken thigh",
+        "Gochujang honey glaze",
+        "Sesame slaw",
+        "Cucumber",
+        "Potato bun"
+      ],
+      "prepTime": "14 min",
+      "calories": 690,
+      "badges": [
+        "Spicy"
+      ],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-extra-fillet",
+          "name": "Extra fillet",
+          "price": 380
+        },
+        {
+          "id": "add-slaw",
+          "name": "Extra slaw",
+          "price": 90
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 96,
+      "createdAt": "2026-10-02T07:51:00.000Z",
+      "updatedAt": "2026-10-30T07:50:00.000Z"
+    },
+    {
+      "id": "p-truffle-no7",
+      "name": "Truffle No. 7",
+      "slug": "truffle-no-7",
+      "description": "A wagyu blend patty cooked medium, with black truffle aioli, 12-hour caramelised onions and comté. Rich, quiet and deliberately small-batch — only 20 served each evening.",
+      "shortDescription": "Wagyu blend, truffle aioli, caramelised onion.",
+      "images": [
+        "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 2490,
+      "discountPrice": null,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "ingredients": [
+        "Wagyu blend",
+        "Black truffle aioli",
+        "Comté",
+        "Caramelised onion",
+        "Milk bun"
+      ],
+      "prepTime": "20 min",
+      "calories": 820,
+      "badges": [
+        "Limited"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": 20,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-cheddar",
+          "name": "Aged cheddar",
+          "price": 150
+        },
+        {
+          "id": "add-jalapeno",
+          "name": "Pickled jalapeños",
+          "price": 90
+        },
+        {
+          "id": "add-bacon",
+          "name": "Smoked beef bacon",
+          "price": 250
+        },
+        {
+          "id": "add-sauce",
+          "name": "Extra ember sauce",
+          "price": 80
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 61,
+      "createdAt": "2026-10-14T07:40:00.000Z",
+      "updatedAt": "2026-10-30T07:53:00.000Z"
+    },
+    {
+      "id": "p-margherita",
+      "name": "Margherita al Fuoco",
+      "slug": "margherita-al-fuoco",
+      "description": "The truest test of a kitchen. 72-hour fermented dough, crushed San Marzano tomatoes, fior di latte and basil, fired at 900°F for 90 seconds. No more, no less.",
+      "shortDescription": "San Marzano, fior di latte, basil, live fire.",
+      "images": [
+        "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1590,
+      "discountPrice": null,
+      "categoryId": "cat-pizza",
+      "categoryName": "Pizza",
+      "ingredients": [
+        "72-hour dough",
+        "San Marzano tomato",
+        "Fior di latte",
+        "Basil",
+        "Olive oil"
+      ],
+      "prepTime": "12 min",
+      "calories": 640,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "9-inch",
+          "name": "9\" personal",
+          "priceDelta": -300
+        },
+        {
+          "id": "12-inch",
+          "name": "12\" sharing",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-burrata",
+          "name": "Burrata",
+          "price": 350
+        },
+        {
+          "id": "add-chilli-honey",
+          "name": "Chilli honey",
+          "price": 120
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 187,
+      "createdAt": "2026-09-02T07:51:00.000Z",
+      "updatedAt": "2026-10-30T07:17:00.000Z"
+    },
+    {
+      "id": "p-diavola",
+      "name": "Diavola",
+      "slug": "diavola",
+      "description": "Spicy salami cups that crisp at the edges, smoked mozzarella, and a finish of chilli honey. Hot, sweet, smoky — the pie that starts arguments.",
+      "shortDescription": "Spicy salami, chilli honey, smoked mozzarella.",
+      "images": [
+        "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1890,
+      "discountPrice": null,
+      "categoryId": "cat-pizza",
+      "categoryName": "Pizza",
+      "ingredients": [
+        "Spicy salami",
+        "Smoked mozzarella",
+        "Chilli honey",
+        "Oregano",
+        "72-hour dough"
+      ],
+      "prepTime": "12 min",
+      "calories": 760,
+      "badges": [
+        "Spicy",
+        "Best Seller"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "9-inch",
+          "name": "9\" personal",
+          "priceDelta": -300
+        },
+        {
+          "id": "12-inch",
+          "name": "12\" sharing",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-burrata",
+          "name": "Burrata",
+          "price": 350
+        },
+        {
+          "id": "add-jalapeno",
+          "name": "Jalapeños",
+          "price": 90
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 156,
+      "createdAt": "2026-09-17T07:13:00.000Z",
+      "updatedAt": "2026-10-30T07:28:00.000Z"
+    },
+    {
+      "id": "p-truffle-funghi",
+      "name": "Truffle Funghi",
+      "slug": "truffle-funghi",
+      "description": "A white pie built on taleggio and creme fraiche, topped with wild mushrooms roasted in thyme and finished with a generous thread of truffle oil.",
+      "shortDescription": "Wild mushrooms, taleggio, truffle oil.",
+      "images": [
+        "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 2190,
+      "discountPrice": null,
+      "categoryId": "cat-pizza",
+      "categoryName": "Pizza",
+      "ingredients": [
+        "Taleggio",
+        "Wild mushrooms",
+        "Crème fraîche",
+        "Thyme",
+        "Truffle oil"
+      ],
+      "prepTime": "14 min",
+      "calories": 710,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "9-inch",
+          "name": "9\" personal",
+          "priceDelta": -350
+        },
+        {
+          "id": "12-inch",
+          "name": "12\" sharing",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-truffle",
+          "name": "Extra truffle",
+          "price": 300
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 74,
+      "createdAt": "2026-10-07T07:34:00.000Z",
+      "updatedAt": "2026-10-30T07:28:00.000Z"
+    },
+    {
+      "id": "p-karachi-hot",
+      "name": "The Karachi Hot",
+      "slug": "the-karachi-hot",
+      "description": "Our city on a pizza. Smoked chicken tikka, green chilli, coriander and burrata, with a dusting of chaat masala. Familiar, but never quite what you expected.",
+      "shortDescription": "Chicken tikka, green chilli, burrata.",
+      "images": [
+        "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1990,
+      "discountPrice": null,
+      "categoryId": "cat-pizza",
+      "categoryName": "Pizza",
+      "ingredients": [
+        "Chicken tikka",
+        "Green chilli",
+        "Burrata",
+        "Coriander",
+        "Chaat masala"
+      ],
+      "prepTime": "14 min",
+      "calories": 740,
+      "badges": [
+        "Local Favourite",
+        "Spicy"
+      ],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "9-inch",
+          "name": "9\" personal",
+          "priceDelta": -300
+        },
+        {
+          "id": "12-inch",
+          "name": "12\" sharing",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-burrata",
+          "name": "Extra burrata",
+          "price": 350
+        },
+        {
+          "id": "add-chicken",
+          "name": "Extra chicken",
+          "price": 250
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 112,
+      "createdAt": "2026-10-20T07:25:00.000Z",
+      "updatedAt": "2026-10-30T07:33:00.000Z"
+    },
+    {
+      "id": "p-club-untouch",
+      "name": "The Club Untouch",
+      "slug": "the-club-untouch",
+      "description": "Triple-stacked and pressed to order: roast chicken, smoked beef bacon, tomato jam, gem lettuce and tarragon mayo on toasted sourdough.",
+      "shortDescription": "Roast chicken, smoked bacon, tomato jam.",
+      "images": [
+        "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1290,
+      "discountPrice": null,
+      "categoryId": "cat-sandwiches",
+      "categoryName": "Sandwiches",
+      "ingredients": [
+        "Roast chicken",
+        "Smoked beef bacon",
+        "Tomato jam",
+        "Gem lettuce",
+        "Tarragon mayo",
+        "Sourdough"
+      ],
+      "prepTime": "12 min",
+      "calories": 620,
+      "badges": [],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-fries",
+          "name": "Side of fries",
+          "price": 290
+        },
+        {
+          "id": "add-avocado",
+          "name": "Avocado",
+          "price": 180
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 68,
+      "createdAt": "2026-09-27T07:06:00.000Z",
+      "updatedAt": "2026-10-30T07:08:00.000Z"
+    },
+    {
+      "id": "p-firecracker-sando",
+      "name": "Firecracker Chicken Sando",
+      "slug": "firecracker-chicken-sando",
+      "description": "A thigh fillet brined in buttermilk, fried hard, and dressed with hot honey, house pickles and shredded cabbage. Simple, loud and gone too quickly.",
+      "shortDescription": "Buttermilk chicken, hot honey, pickles.",
+      "images": [
+        "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1190,
+      "discountPrice": null,
+      "categoryId": "cat-sandwiches",
+      "categoryName": "Sandwiches",
+      "ingredients": [
+        "Buttermilk chicken",
+        "Hot honey",
+        "House pickles",
+        "Cabbage",
+        "Milk bun"
+      ],
+      "prepTime": "12 min",
+      "calories": 590,
+      "badges": [
+        "Spicy"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-fries",
+          "name": "Side of fries",
+          "price": 290
+        },
+        {
+          "id": "add-cheddar",
+          "name": "Aged cheddar",
+          "price": 150
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 84,
+      "createdAt": "2026-10-10T07:08:00.000Z",
+      "updatedAt": "2026-10-30T07:26:00.000Z"
+    },
+    {
+      "id": "p-grilled-cheese",
+      "name": "Grilled Cheese No. 4",
+      "slug": "grilled-cheese-no-4",
+      "description": "Aged cheddar, gruyère and mozzarella melted between thick-cut sourdough with caramelised onion and a swipe of dijon. Served with tomato soup for dipping.",
+      "shortDescription": "Three cheeses, caramelised onion, sourdough.",
+      "images": [
+        "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 990,
+      "discountPrice": null,
+      "categoryId": "cat-sandwiches",
+      "categoryName": "Sandwiches",
+      "ingredients": [
+        "Aged cheddar",
+        "Gruyère",
+        "Mozzarella",
+        "Caramelised onion",
+        "Sourdough"
+      ],
+      "prepTime": "10 min",
+      "calories": 540,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-soup",
+          "name": "Extra tomato soup",
+          "price": 190
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 43,
+      "createdAt": "2026-09-12T07:31:00.000Z",
+      "updatedAt": "2026-10-30T07:13:00.000Z"
+    },
+    {
+      "id": "p-cacio-pepe",
+      "name": "Cacio e Pepe",
+      "slug": "cacio-e-pepe",
+      "description": "Three ingredients, no place to hide. House-rolled tonnarelli, aged pecorino romano and freshly cracked black pepper, emulsified with pasta water into a glossy sauce.",
+      "shortDescription": "Tonnarelli, aged pecorino, black pepper.",
+      "images": [
+        "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1390,
+      "discountPrice": null,
+      "categoryId": "cat-pasta",
+      "categoryName": "Pasta",
+      "ingredients": [
+        "Tonnarelli",
+        "Pecorino romano",
+        "Black pepper",
+        "Sea salt"
+      ],
+      "prepTime": "16 min",
+      "calories": 560,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "regular",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "large",
+          "name": "Large",
+          "priceDelta": 350
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-truffle",
+          "name": "Truffle shavings",
+          "price": 400
+        },
+        {
+          "id": "add-chicken",
+          "name": "Grilled chicken",
+          "price": 290
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 97,
+      "createdAt": "2026-09-22T07:35:00.000Z",
+      "updatedAt": "2026-10-30T07:20:00.000Z"
+    },
+    {
+      "id": "p-truffle-rigatoni",
+      "name": "Truffle Rigatoni",
+      "slug": "truffle-rigatoni",
+      "description": "Rigatoni cooked just shy of al dente, finished in a porcini cream with parmesan and a generous shaving of black truffle. Best eaten immediately, with a fork and no conversation.",
+      "shortDescription": "Porcini cream, parmesan, black truffle.",
+      "images": [
+        "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1790,
+      "discountPrice": null,
+      "categoryId": "cat-pasta",
+      "categoryName": "Pasta",
+      "ingredients": [
+        "Rigatoni",
+        "Porcini",
+        "Cream",
+        "Parmesan",
+        "Black truffle"
+      ],
+      "prepTime": "18 min",
+      "calories": 680,
+      "badges": [
+        "Signature"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "regular",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "large",
+          "name": "Large",
+          "priceDelta": 350
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-truffle",
+          "name": "Extra truffle",
+          "price": 400
+        },
+        {
+          "id": "add-chicken",
+          "name": "Grilled chicken",
+          "price": 290
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 121,
+      "createdAt": "2026-10-04T07:45:00.000Z",
+      "updatedAt": "2026-10-30T07:17:00.000Z"
+    },
+    {
+      "id": "p-arrabbiata",
+      "name": "Arrabbiata",
+      "slug": "arrabbiata",
+      "description": "A slow-cooked tomato sauce with garlic, dried chilli and basil, tossed through penne rigate. The honest, everyday pasta of the menu — done properly.",
+      "shortDescription": "Tomato, garlic, chilli, basil.",
+      "images": [
+        "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1290,
+      "discountPrice": null,
+      "categoryId": "cat-pasta",
+      "categoryName": "Pasta",
+      "ingredients": [
+        "Penne",
+        "Tomato",
+        "Garlic",
+        "Chilli",
+        "Basil",
+        "Olive oil"
+      ],
+      "prepTime": "14 min",
+      "calories": 510,
+      "badges": [
+        "Vegetarian",
+        "Spicy"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "regular",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "large",
+          "name": "Large",
+          "priceDelta": 300
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-parmesan",
+          "name": "Extra parmesan",
+          "price": 120
+        },
+        {
+          "id": "add-chicken",
+          "name": "Grilled chicken",
+          "price": 290
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 52,
+      "createdAt": "2026-08-28T07:10:00.000Z",
+      "updatedAt": "2026-10-30T07:47:00.000Z"
+    },
+    {
+      "id": "p-ember-chicken",
+      "name": "Ember Chicken",
+      "slug": "ember-chicken",
+      "description": "A half chicken brined for 48 hours, then grilled over charcoal until the skin blisters. Finished with lemon, za'atar and a spoon of garlic toum.",
+      "shortDescription": "Charcoal-grilled half chicken, lemon, za'atar.",
+      "images": [
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1790,
+      "discountPrice": null,
+      "categoryId": "cat-chicken",
+      "categoryName": "Chicken",
+      "ingredients": [
+        "Half chicken",
+        "Lemon",
+        "Za'atar",
+        "Garlic toum",
+        "Olive oil"
+      ],
+      "prepTime": "24 min",
+      "calories": 640,
+      "badges": [
+        "Best Seller"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "half",
+          "name": "Half chicken",
+          "priceDelta": 0
+        },
+        {
+          "id": "whole",
+          "name": "Whole chicken",
+          "priceDelta": 1450
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-toum",
+          "name": "Extra toum",
+          "price": 90
+        },
+        {
+          "id": "add-fries",
+          "name": "Ember fries",
+          "price": 290
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 176,
+      "createdAt": "2026-09-04T07:09:00.000Z",
+      "updatedAt": "2026-10-30T07:07:00.000Z"
+    },
+    {
+      "id": "p-fire-wings",
+      "name": "Korean Fire Wings",
+      "slug": "korean-fire-wings",
+      "description": "Eight double-fried wings tossed in a gochujang honey glaze, finished with toasted sesame and spring onion. Sticky, hot and impossible to share fairly.",
+      "shortDescription": "Gochujang, honey, sesame — eight pieces.",
+      "images": [
+        "https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1190,
+      "discountPrice": null,
+      "categoryId": "cat-chicken",
+      "categoryName": "Chicken",
+      "ingredients": [
+        "Chicken wings",
+        "Gochujang",
+        "Honey",
+        "Sesame",
+        "Spring onion"
+      ],
+      "prepTime": "18 min",
+      "calories": 580,
+      "badges": [
+        "Spicy",
+        "Popular"
+      ],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "8-pcs",
+          "name": "8 pieces",
+          "priceDelta": 0
+        },
+        {
+          "id": "16-pcs",
+          "name": "16 pieces",
+          "priceDelta": 950
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-ranch",
+          "name": "Buttermilk ranch",
+          "price": 90
+        },
+        {
+          "id": "add-fries",
+          "name": "Ember fries",
+          "price": 290
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 143,
+      "createdAt": "2026-09-29T07:27:00.000Z",
+      "updatedAt": "2026-10-30T07:06:00.000Z"
+    },
+    {
+      "id": "p-fried-chicken",
+      "name": "Buttermilk Fried Chicken",
+      "slug": "buttermilk-fried-chicken",
+      "description": "Chicken brined in buttermilk and hot sauce for two days, dredged in a seasoned flour and fried to order. Drizzled with hot honey and served with pickles.",
+      "shortDescription": "48-hour brine, hot honey, house pickles.",
+      "images": [
+        "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1390,
+      "discountPrice": null,
+      "categoryId": "cat-chicken",
+      "categoryName": "Chicken",
+      "ingredients": [
+        "Chicken",
+        "Buttermilk",
+        "Hot honey",
+        "House pickles",
+        "Seasoned flour"
+      ],
+      "prepTime": "20 min",
+      "calories": 670,
+      "badges": [],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-ranch",
+          "name": "Buttermilk ranch",
+          "price": 90
+        },
+        {
+          "id": "add-wings",
+          "name": "Extra piece",
+          "price": 280
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 88,
+      "createdAt": "2026-09-14T07:12:00.000Z",
+      "updatedAt": "2026-10-30T07:29:00.000Z"
+    },
+    {
+      "id": "p-tikka-skewers",
+      "name": "Tikka Skewers",
+      "slug": "tikka-skewers",
+      "description": "Chicken thigh marinated in yoghurt, Kashmiri chilli and garam masala, skewered and cooked over charcoal. Served with mint chutney and charred lemon.",
+      "shortDescription": "Smoked chicken tikka, mint chutney.",
+      "images": [
+        "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 1290,
+      "discountPrice": null,
+      "categoryId": "cat-chicken",
+      "categoryName": "Chicken",
+      "ingredients": [
+        "Chicken thigh",
+        "Yoghurt",
+        "Kashmiri chilli",
+        "Garam masala",
+        "Mint chutney"
+      ],
+      "prepTime": "18 min",
+      "calories": 480,
+      "badges": [
+        "Spicy",
+        "Local Favourite"
+      ],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-naan",
+          "name": "Butter naan",
+          "price": 150
+        },
+        {
+          "id": "add-raita",
+          "name": "Cucumber raita",
+          "price": 90
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 109,
+      "createdAt": "2026-10-12T07:19:00.000Z",
+      "updatedAt": "2026-10-30T07:15:00.000Z"
+    },
+    {
+      "id": "p-short-rib",
+      "name": "12-Hour Short Rib",
+      "slug": "12-hour-short-rib",
+      "description": "A single beef short rib, salted overnight and smoked low for twelve hours until it gives way under a spoon. Glazed with a burnt onion jus and finished with smoked sea salt.",
+      "shortDescription": "Smoked short rib, burnt onion jus.",
+      "images": [
+        "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 2690,
+      "discountPrice": null,
+      "categoryId": "cat-bbq",
+      "categoryName": "BBQ & Grill",
+      "ingredients": [
+        "Beef short rib",
+        "Burnt onion jus",
+        "Smoked sea salt",
+        "Black pepper"
+      ],
+      "prepTime": "28 min",
+      "calories": 920,
+      "badges": [
+        "Signature",
+        "Limited"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": 18,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-mash",
+          "name": "Truffle mash",
+          "price": 390
+        },
+        {
+          "id": "add-fries",
+          "name": "Ember fries",
+          "price": 290
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 134,
+      "createdAt": "2026-09-26T07:06:00.000Z",
+      "updatedAt": "2026-10-30T07:29:00.000Z"
+    },
+    {
+      "id": "p-ribeye",
+      "name": "Ribeye, 300g",
+      "slug": "ribeye-300g",
+      "description": "A 300g dry-aged ribeye, grilled over hardwood and rested for as long as it took to cook. Served with bone marrow butter, watercress and burnt lemon.",
+      "shortDescription": "Dry-aged 28 days, bone marrow butter.",
+      "images": [
+        "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 3490,
+      "discountPrice": null,
+      "categoryId": "cat-bbq",
+      "categoryName": "BBQ & Grill",
+      "ingredients": [
+        "Dry-aged ribeye",
+        "Bone marrow butter",
+        "Watercress",
+        "Burnt lemon"
+      ],
+      "prepTime": "26 min",
+      "calories": 980,
+      "badges": [
+        "Premium"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-mash",
+          "name": "Truffle mash",
+          "price": 390
+        },
+        {
+          "id": "add-peppercorn",
+          "name": "Peppercorn sauce",
+          "price": 190
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 77,
+      "createdAt": "2026-09-20T07:14:00.000Z",
+      "updatedAt": "2026-10-30T07:06:00.000Z"
+    },
+    {
+      "id": "p-smoked-platter",
+      "name": "Smoked Platter for Two",
+      "slug": "smoked-platter-for-two",
+      "description": "A table-sized board of our smoked short rib, 12-hour brisket, fire wings, house pickles, slaw and ember fries. Built to be shared, though we won't judge.",
+      "shortDescription": "Ribs, brisket, wings, pickles, fries.",
+      "images": [
+        "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 4890,
+      "discountPrice": null,
+      "categoryId": "cat-bbq",
+      "categoryName": "BBQ & Grill",
+      "ingredients": [
+        "Smoked short rib",
+        "Beef brisket",
+        "Fire wings",
+        "House pickles",
+        "Slaw",
+        "Ember fries"
+      ],
+      "prepTime": "30 min",
+      "calories": 1900,
+      "badges": [
+        "For Two",
+        "Signature"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-ribs",
+          "name": "Extra short rib",
+          "price": 1290
+        },
+        {
+          "id": "add-slaw",
+          "name": "Extra slaw",
+          "price": 190
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 65,
+      "createdAt": "2026-10-02T07:06:00.000Z",
+      "updatedAt": "2026-10-30T07:23:00.000Z"
+    },
+    {
+      "id": "p-ember-fries",
+      "name": "Ember Fries",
+      "slug": "ember-fries",
+      "description": "Triple-cooked in beef dripping, tossed with rosemary salt and served with our smoked ember mayo. The fries that started a side-menu.",
+      "shortDescription": "Beef dripping, rosemary salt, ember mayo.",
+      "images": [
+        "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 590,
+      "discountPrice": null,
+      "categoryId": "cat-fries",
+      "categoryName": "Fries & Sides",
+      "ingredients": [
+        "Potatoes",
+        "Beef dripping",
+        "Rosemary",
+        "Sea salt",
+        "Ember mayo"
+      ],
+      "prepTime": "10 min",
+      "calories": 420,
+      "badges": [],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "regular",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "large",
+          "name": "Large",
+          "priceDelta": 250
+        }
+      ],
+      "addons": [
+        {
+          "id": "add-cheese",
+          "name": "Cheddar sauce",
+          "price": 150
+        },
+        {
+          "id": "add-truffle",
+          "name": "Truffle oil",
+          "price": 150
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 232,
+      "createdAt": "2026-08-18T07:26:00.000Z",
+      "updatedAt": "2026-10-30T07:49:00.000Z"
+    },
+    {
+      "id": "p-loaded-fries",
+      "name": "Loaded Truffle Fries",
+      "slug": "loaded-truffle-fries",
+      "description": "Ember fries loaded with parmesan cream, aged parmesan, black truffle oil and chives. Rich enough to be a meal, best treated as a side.",
+      "shortDescription": "Parmesan, truffle, chives.",
+      "images": [
+        "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 890,
+      "discountPrice": null,
+      "categoryId": "cat-fries",
+      "categoryName": "Fries & Sides",
+      "ingredients": [
+        "Fries",
+        "Parmesan cream",
+        "Aged parmesan",
+        "Truffle oil",
+        "Chives"
+      ],
+      "prepTime": "12 min",
+      "calories": 560,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-cheese",
+          "name": "Extra parmesan",
+          "price": 120
+        },
+        {
+          "id": "add-bacon",
+          "name": "Beef bacon",
+          "price": 250
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 102,
+      "createdAt": "2026-10-06T07:14:00.000Z",
+      "updatedAt": "2026-10-30T07:11:00.000Z"
+    },
+    {
+      "id": "p-peri-fries",
+      "name": "Peri Peri Fries",
+      "slug": "peri-peri-fries",
+      "description": "Skin-on fries tossed in our peri peri salt with lime zest and a side of garlic mayo. Sharp, hot and dangerously snackable.",
+      "shortDescription": "Chilli, lime, peri salt.",
+      "images": [
+        "https://images.unsplash.com/photo-1630431341973-02e1b662ec35?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 590,
+      "discountPrice": null,
+      "categoryId": "cat-fries",
+      "categoryName": "Fries & Sides",
+      "ingredients": [
+        "Potatoes",
+        "Peri peri spice",
+        "Lime",
+        "Garlic mayo"
+      ],
+      "prepTime": "10 min",
+      "calories": 390,
+      "badges": [
+        "Spicy",
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-cheese",
+          "name": "Cheddar sauce",
+          "price": 150
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 64,
+      "createdAt": "2026-09-02T07:06:00.000Z",
+      "updatedAt": "2026-10-30T07:44:00.000Z"
+    },
+    {
+      "id": "p-smoked-lemonade",
+      "name": "Smoked Lemonade",
+      "slug": "smoked-lemonade",
+      "description": "Lemons charred on the grill, pressed and shaken with mint and a little cane sugar, then topped with soda. Smoke without fire.",
+      "shortDescription": "Charred lemon, mint, soda.",
+      "images": [
+        "https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 390,
+      "discountPrice": null,
+      "categoryId": "cat-drinks",
+      "categoryName": "Drinks",
+      "ingredients": [
+        "Charred lemon",
+        "Mint",
+        "Cane sugar",
+        "Soda"
+      ],
+      "prepTime": "5 min",
+      "calories": 120,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "regular",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "jug",
+          "name": "Jug (1L)",
+          "priceDelta": 600
+        }
+      ],
+      "addons": [],
+      "rating": 4.8,
+      "reviewCount": 89,
+      "createdAt": "2026-09-22T07:51:00.000Z",
+      "updatedAt": "2026-10-30T07:18:00.000Z"
+    },
+    {
+      "id": "p-rose-cooler",
+      "name": "Rose & Cardamom Cooler",
+      "slug": "rose-cardamom-cooler",
+      "description": "A delicate cooler of rose water, green cardamom and lime over crushed ice, finished with dried rose petals. Floral, cold and just sweet enough.",
+      "shortDescription": "Rose, green cardamom, lime.",
+      "images": [
+        "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 390,
+      "discountPrice": null,
+      "categoryId": "cat-drinks",
+      "categoryName": "Drinks",
+      "ingredients": [
+        "Rose water",
+        "Green cardamom",
+        "Lime",
+        "Cane sugar"
+      ],
+      "prepTime": "5 min",
+      "calories": 110,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [
+        {
+          "id": "regular",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "jug",
+          "name": "Jug (1L)",
+          "priceDelta": 600
+        }
+      ],
+      "addons": [],
+      "rating": 4.7,
+      "reviewCount": 56,
+      "createdAt": "2026-09-30T07:12:00.000Z",
+      "updatedAt": "2026-10-30T07:53:00.000Z"
+    },
+    {
+      "id": "p-espresso-tonic",
+      "name": "Iced Espresso Tonic",
+      "slug": "iced-espresso-tonic",
+      "description": "A double shot of our house espresso poured over tonic and ice, with a strip of orange peel. Bitter, bright and excellent after a heavy plate.",
+      "shortDescription": "Double espresso, tonic, orange.",
+      "images": [
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 450,
+      "discountPrice": null,
+      "categoryId": "cat-drinks",
+      "categoryName": "Drinks",
+      "ingredients": [
+        "Espresso",
+        "Tonic",
+        "Orange"
+      ],
+      "prepTime": "5 min",
+      "calories": 70,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [],
+      "rating": 4.6,
+      "reviewCount": 37,
+      "createdAt": "2026-10-08T07:07:00.000Z",
+      "updatedAt": "2026-10-30T07:39:00.000Z"
+    },
+    {
+      "id": "p-caramel-shake",
+      "name": "Salted Caramel Shake",
+      "slug": "salted-caramel-shake",
+      "description": "A thick vanilla bean shake blended with house salted caramel sauce and topped with whipped cream and a pinch of smoked salt.",
+      "shortDescription": "Vanilla bean, salted caramel, cream.",
+      "images": [
+        "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 590,
+      "discountPrice": null,
+      "categoryId": "cat-drinks",
+      "categoryName": "Drinks",
+      "ingredients": [
+        "Vanilla bean ice cream",
+        "Salted caramel",
+        "Milk",
+        "Whipped cream"
+      ],
+      "prepTime": "6 min",
+      "calories": 480,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [],
+      "rating": 4.8,
+      "reviewCount": 71,
+      "createdAt": "2026-09-24T07:36:00.000Z",
+      "updatedAt": "2026-10-30T07:17:00.000Z"
+    },
+    {
+      "id": "p-basque",
+      "name": "Burnt Basque Cheesecake",
+      "slug": "burnt-basque-cheesecake",
+      "description": "Baked hot and fast until the top is properly burnt, leaving a centre that barely holds together. Served at room temperature with a spoon of crème fraîche.",
+      "shortDescription": "Caramelised top, molten centre.",
+      "images": [
+        "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 890,
+      "discountPrice": null,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "ingredients": [
+        "Cream cheese",
+        "Double cream",
+        "Eggs",
+        "Vanilla",
+        "Crème fraîche"
+      ],
+      "prepTime": "5 min",
+      "calories": 460,
+      "badges": [
+        "Vegetarian",
+        "Best Seller"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [],
+      "rating": 4.9,
+      "reviewCount": 158,
+      "createdAt": "2026-08-25T07:13:00.000Z",
+      "updatedAt": "2026-10-30T07:28:00.000Z"
+    },
+    {
+      "id": "p-fondant",
+      "name": "Dark Chocolate Fondant",
+      "slug": "dark-chocolate-fondant",
+      "description": "A 70% chocolate fondant baked to order, with a molten centre and a pinch of flaked sea salt. Served with vanilla bean gelato.",
+      "shortDescription": "70% chocolate, sea salt, vanilla gelato.",
+      "images": [
+        "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 790,
+      "discountPrice": null,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "ingredients": [
+        "70% chocolate",
+        "Butter",
+        "Eggs",
+        "Sea salt",
+        "Vanilla gelato"
+      ],
+      "prepTime": "12 min",
+      "calories": 520,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [
+        {
+          "id": "add-gelato",
+          "name": "Extra gelato",
+          "price": 150
+        }
+      ],
+      "rating": 4.8,
+      "reviewCount": 94,
+      "createdAt": "2026-09-18T07:39:00.000Z",
+      "updatedAt": "2026-10-30T07:08:00.000Z"
+    },
+    {
+      "id": "p-pistachio-brownie",
+      "name": "Pistachio Brownie",
+      "slug": "pistachio-brownie",
+      "description": "A dense dark chocolate brownie with roasted pistachios, a thread of olive oil and flaked salt. Fudgy, not cakey — as it should be.",
+      "shortDescription": "Dark chocolate, pistachio, olive oil.",
+      "images": [
+        "https://images.unsplash.com/photo-1607920591413-4ec007e70023?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 690,
+      "discountPrice": null,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "ingredients": [
+        "Dark chocolate",
+        "Pistachio",
+        "Olive oil",
+        "Sea salt"
+      ],
+      "prepTime": "5 min",
+      "calories": 430,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [],
+      "rating": 4.7,
+      "reviewCount": 48,
+      "createdAt": "2026-10-13T07:43:00.000Z",
+      "updatedAt": "2026-10-30T07:14:00.000Z"
+    },
+    {
+      "id": "p-gelato",
+      "name": "Vanilla Bean Gelato",
+      "slug": "vanilla-bean-gelato",
+      "description": "Two scoops of gelato made with Madagascar vanilla beans and a high-fat milk base. Simple, cold and exactly enough.",
+      "shortDescription": "Madagascar vanilla, two scoops.",
+      "images": [
+        "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 390,
+      "discountPrice": null,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "ingredients": [
+        "Milk",
+        "Cream",
+        "Madagascar vanilla",
+        "Sugar"
+      ],
+      "prepTime": "3 min",
+      "calories": 280,
+      "badges": [
+        "Vegetarian"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": null,
+      "variants": [],
+      "addons": [],
+      "rating": 4.6,
+      "reviewCount": 33,
+      "createdAt": "2026-09-07T07:16:00.000Z",
+      "updatedAt": "2026-10-30T07:40:00.000Z"
+    },
+    {
+      "id": "p-experience-box",
+      "name": "The Untouch Experience",
+      "slug": "the-untouch-experience",
+      "description": "Our full table in a box: two signature burgers, half a grilled chicken, ember fries, two sides, two desserts and two smoked lemonades. A proper introduction to the kitchen.",
+      "shortDescription": "A two-person tasting box, fired to order.",
+      "images": [
+        "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 5990,
+      "discountPrice": 5290,
+      "categoryId": "cat-deals",
+      "categoryName": "Special Deals",
+      "ingredients": [
+        "Two signature burgers",
+        "Half ember chicken",
+        "Ember fries",
+        "Two sides",
+        "Two desserts",
+        "Two lemonades"
+      ],
+      "prepTime": "35 min",
+      "calories": 2600,
+      "badges": [
+        "For Two",
+        "Save 12%"
+      ],
+      "featured": true,
+      "popular": true,
+      "available": true,
+      "stock": 25,
+      "variants": [],
+      "addons": [],
+      "rating": 4.9,
+      "reviewCount": 46,
+      "createdAt": "2026-10-17T07:33:00.000Z",
+      "updatedAt": "2026-10-30T07:46:00.000Z"
+    },
+    {
+      "id": "p-date-night-box",
+      "name": "Date Night Box",
+      "slug": "date-night-box",
+      "description": "Choose any two mains, add a shared dessert and two drinks, and we'll pack it with a little extra care. Designed for a slow evening in.",
+      "shortDescription": "Two mains, a shared dessert, two drinks.",
+      "images": [
+        "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 4290,
+      "discountPrice": 3790,
+      "categoryId": "cat-deals",
+      "categoryName": "Special Deals",
+      "ingredients": [
+        "Two mains of choice",
+        "Shared dessert",
+        "Two drinks"
+      ],
+      "prepTime": "30 min",
+      "calories": 1800,
+      "badges": [
+        "Date Night",
+        "Save 12%"
+      ],
+      "featured": true,
+      "popular": false,
+      "available": true,
+      "stock": 30,
+      "variants": [],
+      "addons": [],
+      "rating": 4.8,
+      "reviewCount": 29,
+      "createdAt": "2026-10-22T07:52:00.000Z",
+      "updatedAt": "2026-10-30T07:22:00.000Z"
+    },
+    {
+      "id": "p-weekend-bbq",
+      "name": "Weekend BBQ Board",
+      "slug": "weekend-bbq-board",
+      "description": "A generous four-person board of smoked short rib, brisket, wings, sausages, pickles, slaw and fries. Available Saturdays while it lasts.",
+      "shortDescription": "Four-person smoke board. Saturdays only.",
+      "images": [
+        "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "price": 8990,
+      "discountPrice": null,
+      "categoryId": "cat-deals",
+      "categoryName": "Special Deals",
+      "ingredients": [
+        "Smoked short rib",
+        "Beef brisket",
+        "Fire wings",
+        "Beef sausages",
+        "Pickles",
+        "Slaw",
+        "Fries"
+      ],
+      "prepTime": "40 min",
+      "calories": 3800,
+      "badges": [
+        "Weekend Only",
+        "For Four"
+      ],
+      "featured": false,
+      "popular": false,
+      "available": true,
+      "stock": 12,
+      "variants": [],
+      "addons": [],
+      "rating": 4.9,
+      "reviewCount": 18,
+      "createdAt": "2026-10-24T07:06:00.000Z",
+      "updatedAt": "2026-10-30T07:27:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-burgers",
+      "name": "Burgers",
+      "slug": "burgers",
+      "description": "Hand-pressed patties, aged cheese and sauces built in-house. The heart of the UNTOUCH kitchen.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=85",
+      "order": 1,
+      "active": true,
+      "createdAt": "2026-08-03T07:49:00.000Z"
+    },
+    {
+      "id": "cat-pizza",
+      "name": "Pizza",
+      "slug": "pizza",
+      "description": "72-hour fermented dough, fired at 900°F. Charred edges, airy crumb, restrained toppings.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=85",
+      "order": 2,
+      "active": true,
+      "createdAt": "2026-08-03T07:41:00.000Z"
+    },
+    {
+      "id": "cat-sandwiches",
+      "name": "Sandwiches",
+      "slug": "sandwiches",
+      "description": "Layered, pressed and stacked. Brioche, sourdough and house-baked milk buns.",
+      "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=1200&q=85",
+      "order": 3,
+      "active": true,
+      "createdAt": "2026-08-03T07:53:00.000Z"
+    },
+    {
+      "id": "cat-pasta",
+      "name": "Pasta",
+      "slug": "pasta",
+      "description": "Rolled daily, finished in the pan with aged cheese and slow-reduced sauces.",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=85",
+      "order": 4,
+      "active": true,
+      "createdAt": "2026-08-03T07:17:00.000Z"
+    },
+    {
+      "id": "cat-chicken",
+      "name": "Chicken",
+      "slug": "chicken",
+      "description": "Brine for 48 hours, hit the charcoal, rest. Every piece is fired to order.",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=1200&q=85",
+      "order": 5,
+      "active": true,
+      "createdAt": "2026-08-03T07:44:00.000Z"
+    },
+    {
+      "id": "cat-bbq",
+      "name": "BBQ & Grill",
+      "slug": "bbq-grill",
+      "description": "Low, slow and smoky. Beef and lamb from trusted farms, cooked over live fire.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=85",
+      "order": 6,
+      "active": true,
+      "createdAt": "2026-08-03T07:40:00.000Z"
+    },
+    {
+      "id": "cat-fries",
+      "name": "Fries & Sides",
+      "slug": "fries-sides",
+      "description": "Triple-cooked, beef-dripping fries and the sides that earn their place on the table.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1200&q=85",
+      "order": 7,
+      "active": true,
+      "createdAt": "2026-08-03T07:31:00.000Z"
+    },
+    {
+      "id": "cat-drinks",
+      "name": "Drinks",
+      "slug": "drinks",
+      "description": "Cold-pressed, shaken and charred. Zero proof, zero shortcuts.",
+      "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=1200&q=85",
+      "order": 8,
+      "active": true,
+      "createdAt": "2026-08-03T07:08:00.000Z"
+    },
+    {
+      "id": "cat-desserts",
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Burnt, chilled, spooned. A restrained finish to a loud meal.",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=85",
+      "order": 9,
+      "active": true,
+      "createdAt": "2026-08-03T07:17:00.000Z"
+    },
+    {
+      "id": "cat-deals",
+      "name": "Special Deals",
+      "slug": "special-deals",
+      "description": "Curated boxes and tableside platters, designed to be shared. Limited daily.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=85",
+      "order": 10,
+      "active": true,
+      "createdAt": "2026-08-03T07:16:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-1042",
+      "number": "UNT-241108-1042",
+      "userId": "user-demo",
+      "customer": {
+        "name": "Zara Ahmed",
+        "email": "demo@untouch.pk",
+        "phone": "+92 321 9876543"
+      },
+      "address": {
+        "id": "addr-zara-home",
+        "userId": "user-demo",
+        "label": "Home",
+        "house": "Apartment 4B",
+        "street": "26th Street",
+        "area": "DHA Phase V",
+        "city": "Karachi",
+        "postalCode": "75500",
+        "instructions": "Third gate on the left, blue door. Call on arrival.",
+        "isDefault": true,
+        "createdAt": "2026-08-23T07:39:00.000Z"
+      },
+      "items": [
+        {
+          "productId": "p-untouchable",
+          "name": "The Untouchable",
+          "slug": "the-untouchable",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 1840,
+          "quantity": 2,
+          "variant": {
+            "id": "double",
+            "name": "Double patty",
+            "priceDelta": 0
+          },
+          "addons": [
+            {
+              "id": "add-cheddar",
+              "name": "Aged cheddar",
+              "price": 150
+            }
+          ],
+          "lineTotal": 3680
+        },
+        {
+          "productId": "p-ember-fries",
+          "name": "Ember Fries",
+          "slug": "ember-fries",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 990,
+          "quantity": 1,
+          "variant": {
+            "id": "large",
+            "name": "Large",
+            "priceDelta": 250
+          },
+          "addons": [
+            {
+              "id": "add-truffle",
+              "name": "Truffle oil",
+              "price": 150
+            }
+          ],
+          "lineTotal": 990
+        },
+        {
+          "productId": "p-smoked-lemonade",
+          "name": "Smoked Lemonade",
+          "slug": "smoked-lemonade",
+          "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 990,
+          "quantity": 2,
+          "variant": {
+            "id": "jug",
+            "name": "Jug (1L)",
+            "priceDelta": 600
+          },
+          "addons": [],
+          "lineTotal": 1980
+        }
+      ],
+      "subtotal": 6650,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 6650,
+      "couponCode": null,
+      "paymentMethod": "cod",
+      "paymentStatus": "unpaid",
+      "status": "preparing",
+      "notes": "Please make one burger without jalapeños.",
+      "adminNotes": "",
+      "createdAt": "2026-11-01T08:35:00.000Z",
+      "updatedAt": "2026-11-01T08:53:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T08:35:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-11-01T08:44:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-11-01T08:53:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1041",
+      "number": "UNT-241108-1041",
+      "userId": "user-ali",
+      "customer": {
+        "name": "Ali Raza",
+        "email": "ali@example.com",
+        "phone": "+92 333 4567890"
+      },
+      "address": {
+        "id": "addr-ali",
+        "userId": "user-ali",
+        "label": "Home",
+        "house": "House 17",
+        "street": "Street 4",
+        "area": "Gulshan-e-Iqbal",
+        "city": "Karachi",
+        "postalCode": "75300",
+        "instructions": "",
+        "isDefault": true,
+        "createdAt": "2026-09-02T07:23:00.000Z"
+      },
+      "items": [
+        {
+          "productId": "p-smoked-platter",
+          "name": "Smoked Platter for Two",
+          "slug": "smoked-platter-for-two",
+          "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 4890,
+          "quantity": 1,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 4890
+        },
+        {
+          "productId": "p-basque",
+          "name": "Burnt Basque Cheesecake",
+          "slug": "burnt-basque-cheesecake",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 890,
+          "quantity": 1,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 890
+        },
+        {
+          "productId": "p-rose-cooler",
+          "name": "Rose & Cardamom Cooler",
+          "slug": "rose-cardamom-cooler",
+          "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 390,
+          "quantity": 2,
+          "variant": {
+            "id": "regular",
+            "name": "Regular",
+            "priceDelta": 0
+          },
+          "addons": [],
+          "lineTotal": 780
+        }
+      ],
+      "subtotal": 6560,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 6560,
+      "couponCode": null,
+      "paymentMethod": "cod",
+      "paymentStatus": "unpaid",
+      "status": "pending",
+      "notes": "Extra napkins, please.",
+      "adminNotes": "",
+      "createdAt": "2026-11-01T07:50:00.000Z",
+      "updatedAt": "2026-11-01T07:50:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T07:50:00.000Z",
+          "note": "Order placed"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1040",
+      "number": "UNT-241107-1040",
+      "userId": "user-fatima",
+      "customer": {
+        "name": "Fatima Noor",
+        "email": "fatima@example.com",
+        "phone": "+92 345 1122334"
+      },
+      "address": {
+        "label": "Home",
+        "house": "House 12-C",
+        "street": "Lane 6",
+        "area": "Defence Phase II",
+        "city": "Karachi",
+        "postalCode": "75600",
+        "instructions": "Ring the bell twice."
+      },
+      "items": [
+        {
+          "productId": "p-diavola",
+          "name": "Diavola",
+          "slug": "diavola",
+          "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 2240,
+          "quantity": 1,
+          "variant": {
+            "id": "12-inch",
+            "name": "12\" sharing",
+            "priceDelta": 0
+          },
+          "addons": [
+            {
+              "id": "add-burrata",
+              "name": "Burrata",
+              "price": 350
+            }
+          ],
+          "lineTotal": 2240
+        },
+        {
+          "productId": "p-truffle-rigatoni",
+          "name": "Truffle Rigatoni",
+          "slug": "truffle-rigatoni",
+          "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 1790,
+          "quantity": 1,
+          "variant": {
+            "id": "regular",
+            "name": "Regular",
+            "priceDelta": 0
+          },
+          "addons": [],
+          "lineTotal": 1790
+        }
+      ],
+      "subtotal": 4030,
+      "deliveryFee": 0,
+      "discount": 386,
+      "total": 3644,
+      "couponCode": "UNTOUCH10",
+      "paymentMethod": "online",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "notes": "",
+      "adminNotes": "Paid via test provider — verified manually.",
+      "createdAt": "2026-10-31T15:19:00.000Z",
+      "updatedAt": "2026-10-31T16:04:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-31T15:19:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-31T15:28:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-31T15:37:00.000Z"
+        },
+        {
+          "status": "ready",
+          "at": "2026-10-31T15:46:00.000Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "at": "2026-10-31T15:55:00.000Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-31T16:04:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1039",
+      "number": "UNT-241106-1039",
+      "userId": "user-demo",
+      "customer": {
+        "name": "Zara Ahmed",
+        "email": "demo@untouch.pk",
+        "phone": "+92 321 9876543"
+      },
+      "address": {
+        "id": "addr-zara-work",
+        "userId": "user-demo",
+        "label": "Office",
+        "house": "Floor 9, Tower B",
+        "street": "I.I. Chundrigar Road",
+        "area": "Saddar",
+        "city": "Karachi",
+        "postalCode": "74200",
+        "instructions": "Reception will call up. Leave with the front desk if needed.",
+        "isDefault": false,
+        "createdAt": "2026-09-22T07:15:00.000Z"
+      },
+      "items": [
+        {
+          "productId": "p-ember-chicken",
+          "name": "Ember Chicken",
+          "slug": "ember-chicken",
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 2080,
+          "quantity": 1,
+          "variant": {
+            "id": "half",
+            "name": "Half chicken",
+            "priceDelta": 0
+          },
+          "addons": [
+            {
+              "id": "add-fries",
+              "name": "Ember fries",
+              "price": 290
+            }
+          ],
+          "lineTotal": 2080
+        },
+        {
+          "productId": "p-caramel-shake",
+          "name": "Salted Caramel Shake",
+          "slug": "salted-caramel-shake",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 590,
+          "quantity": 1,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 590
+        }
+      ],
+      "subtotal": 2670,
+      "deliveryFee": 199,
+      "discount": 0,
+      "total": 2869,
+      "couponCode": null,
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "notes": "",
+      "adminNotes": "",
+      "createdAt": "2026-10-30T14:19:00.000Z",
+      "updatedAt": "2026-10-30T15:04:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-30T14:19:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-30T14:28:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-30T14:37:00.000Z"
+        },
+        {
+          "status": "ready",
+          "at": "2026-10-30T14:46:00.000Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "at": "2026-10-30T14:55:00.000Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-30T15:04:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1038",
+      "number": "UNT-241105-1038",
+      "userId": "user-hamza",
+      "customer": {
+        "name": "Hamza Siddiqui",
+        "email": "hamza@example.com",
+        "phone": "+92 301 5566778"
+      },
+      "address": {
+        "label": "Home",
+        "house": "Flat 3A",
+        "street": "Khayaban-e-Ittehad",
+        "area": "DHA Phase VIII",
+        "city": "Karachi",
+        "postalCode": "75500",
+        "instructions": ""
+      },
+      "items": [
+        {
+          "productId": "p-tikka-skewers",
+          "name": "Tikka Skewers",
+          "slug": "tikka-skewers",
+          "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 1440,
+          "quantity": 2,
+          "variant": null,
+          "addons": [
+            {
+              "id": "add-naan",
+              "name": "Butter naan",
+              "price": 150
+            }
+          ],
+          "lineTotal": 2880
+        },
+        {
+          "productId": "p-peri-fries",
+          "name": "Peri Peri Fries",
+          "slug": "peri-peri-fries",
+          "image": "https://images.unsplash.com/photo-1630431341973-02e1b662ec35?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 590,
+          "quantity": 1,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 590
+        }
+      ],
+      "subtotal": 3470,
+      "deliveryFee": 199,
+      "discount": 0,
+      "total": 3669,
+      "couponCode": null,
+      "paymentMethod": "cod",
+      "paymentStatus": "failed",
+      "status": "cancelled",
+      "notes": "Ordered by mistake.",
+      "adminNotes": "",
+      "createdAt": "2026-10-29T13:52:00.000Z",
+      "updatedAt": "2026-10-29T13:58:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-29T13:52:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "cancelled",
+          "at": "2026-10-29T13:58:00.000Z",
+          "note": "Cancelled by customer"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1037",
+      "number": "UNT-241104-1037",
+      "userId": "user-demo",
+      "customer": {
+        "name": "Zara Ahmed",
+        "email": "demo@untouch.pk",
+        "phone": "+92 321 9876543"
+      },
+      "address": {
+        "id": "addr-zara-home",
+        "userId": "user-demo",
+        "label": "Home",
+        "house": "Apartment 4B",
+        "street": "26th Street",
+        "area": "DHA Phase V",
+        "city": "Karachi",
+        "postalCode": "75500",
+        "instructions": "Third gate on the left, blue door. Call on arrival.",
+        "isDefault": true,
+        "createdAt": "2026-08-23T07:39:00.000Z"
+      },
+      "items": [
+        {
+          "productId": "p-diavola",
+          "name": "Diavola",
+          "slug": "diavola",
+          "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 1890,
+          "quantity": 1,
+          "variant": {
+            "id": "12-inch",
+            "name": "12\" sharing",
+            "priceDelta": 0
+          },
+          "addons": [],
+          "lineTotal": 1890
+        },
+        {
+          "productId": "p-truffle-funghi",
+          "name": "Truffle Funghi",
+          "slug": "truffle-funghi",
+          "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 2190,
+          "quantity": 1,
+          "variant": {
+            "id": "12-inch",
+            "name": "12\" sharing",
+            "priceDelta": 0
+          },
+          "addons": [],
+          "lineTotal": 2190
+        },
+        {
+          "productId": "p-peri-fries",
+          "name": "Peri Peri Fries",
+          "slug": "peri-peri-fries",
+          "image": "https://images.unsplash.com/photo-1630431341973-02e1b662ec35?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 590,
+          "quantity": 2,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 1180
+        }
+      ],
+      "subtotal": 5260,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 5260,
+      "couponCode": null,
+      "paymentMethod": "online",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "notes": "",
+      "adminNotes": "",
+      "createdAt": "2026-10-27T16:34:00.000Z",
+      "updatedAt": "2026-10-27T17:19:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-27T16:34:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-27T16:43:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-27T16:52:00.000Z"
+        },
+        {
+          "status": "ready",
+          "at": "2026-10-27T17:01:00.000Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "at": "2026-10-27T17:10:00.000Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-27T17:19:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1036",
+      "number": "UNT-241102-1036",
+      "userId": "user-ali",
+      "customer": {
+        "name": "Ali Raza",
+        "email": "ali@example.com",
+        "phone": "+92 333 4567890"
+      },
+      "address": {
+        "id": "addr-ali",
+        "userId": "user-ali",
+        "label": "Home",
+        "house": "House 17",
+        "street": "Street 4",
+        "area": "Gulshan-e-Iqbal",
+        "city": "Karachi",
+        "postalCode": "75300",
+        "instructions": "",
+        "isDefault": true,
+        "createdAt": "2026-09-02T07:23:00.000Z"
+      },
+      "items": [
+        {
+          "productId": "p-short-rib",
+          "name": "12-Hour Short Rib",
+          "slug": "12-hour-short-rib",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 3080,
+          "quantity": 2,
+          "variant": null,
+          "addons": [
+            {
+              "id": "add-mash",
+              "name": "Truffle mash",
+              "price": 390
+            }
+          ],
+          "lineTotal": 6160
+        },
+        {
+          "productId": "p-fondant",
+          "name": "Dark Chocolate Fondant",
+          "slug": "dark-chocolate-fondant",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 790,
+          "quantity": 2,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 1580
+        }
+      ],
+      "subtotal": 7740,
+      "deliveryFee": 0,
+      "discount": 500,
+      "total": 7240,
+      "couponCode": "FIRE500",
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "notes": "",
+      "adminNotes": "Regular. Send a note with the order.",
+      "createdAt": "2026-10-25T15:48:00.000Z",
+      "updatedAt": "2026-10-25T16:33:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-25T15:48:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-25T15:57:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-25T16:06:00.000Z"
+        },
+        {
+          "status": "ready",
+          "at": "2026-10-25T16:15:00.000Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "at": "2026-10-25T16:24:00.000Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-25T16:33:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1035",
+      "number": "UNT-241031-1035",
+      "userId": "user-fatima",
+      "customer": {
+        "name": "Fatima Noor",
+        "email": "fatima@example.com",
+        "phone": "+92 345 1122334"
+      },
+      "address": {
+        "label": "Home",
+        "house": "House 12-C",
+        "street": "Lane 6",
+        "area": "Defence Phase II",
+        "city": "Karachi",
+        "postalCode": "75600",
+        "instructions": ""
+      },
+      "items": [
+        {
+          "productId": "p-experience-box",
+          "name": "The Untouch Experience",
+          "slug": "the-untouch-experience",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 5290,
+          "quantity": 1,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 5290
+        },
+        {
+          "productId": "p-smoked-lemonade",
+          "name": "Smoked Lemonade",
+          "slug": "smoked-lemonade",
+          "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 390,
+          "quantity": 2,
+          "variant": {
+            "id": "regular",
+            "name": "Regular",
+            "priceDelta": 0
+          },
+          "addons": [],
+          "lineTotal": 780
+        }
+      ],
+      "subtotal": 6070,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 6070,
+      "couponCode": null,
+      "paymentMethod": "online",
+      "paymentStatus": "refunded",
+      "status": "delivered",
+      "notes": "",
+      "adminNotes": "Refunded due to delayed delivery. Provider reference PENDING.",
+      "createdAt": "2026-10-23T14:17:00.000Z",
+      "updatedAt": "2026-10-23T15:02:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-23T14:17:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-23T14:26:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-23T14:35:00.000Z"
+        },
+        {
+          "status": "ready",
+          "at": "2026-10-23T14:44:00.000Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "at": "2026-10-23T14:53:00.000Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-23T15:02:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    },
+    {
+      "id": "order-1034",
+      "number": "UNT-241029-1034",
+      "userId": "user-hamza",
+      "customer": {
+        "name": "Hamza Siddiqui",
+        "email": "hamza@example.com",
+        "phone": "+92 301 5566778"
+      },
+      "address": {
+        "label": "Home",
+        "house": "Flat 3A",
+        "street": "Khayaban-e-Ittehad",
+        "area": "DHA Phase VIII",
+        "city": "Karachi",
+        "postalCode": "75500",
+        "instructions": ""
+      },
+      "items": [
+        {
+          "productId": "p-smoke-ember",
+          "name": "Smoke & Ember",
+          "slug": "smoke-and-ember",
+          "image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 1450,
+          "quantity": 1,
+          "variant": {
+            "id": "single",
+            "name": "Single patty",
+            "priceDelta": -300
+          },
+          "addons": [],
+          "lineTotal": 1450
+        },
+        {
+          "productId": "p-loaded-fries",
+          "name": "Loaded Truffle Fries",
+          "slug": "loaded-truffle-fries",
+          "image": "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 890,
+          "quantity": 1,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 890
+        },
+        {
+          "productId": "p-caramel-shake",
+          "name": "Salted Caramel Shake",
+          "slug": "salted-caramel-shake",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1600&q=85",
+          "unitPrice": 590,
+          "quantity": 2,
+          "variant": null,
+          "addons": [],
+          "lineTotal": 1180
+        }
+      ],
+      "subtotal": 3520,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 3520,
+      "couponCode": null,
+      "paymentMethod": "cod",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "notes": "",
+      "adminNotes": "",
+      "createdAt": "2026-10-20T16:41:00.000Z",
+      "updatedAt": "2026-10-20T17:26:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-10-20T16:41:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-10-20T16:50:00.000Z"
+        },
+        {
+          "status": "preparing",
+          "at": "2026-10-20T16:59:00.000Z"
+        },
+        {
+          "status": "ready",
+          "at": "2026-10-20T17:08:00.000Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "at": "2026-10-20T17:17:00.000Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-20T17:26:00.000Z"
+        }
+      ],
+      "estimatedMinutes": 30
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coupon-untouch10",
+      "code": "UNTOUCH10",
+      "description": "10% off your first UNTOUCH order.",
+      "type": "percent",
+      "value": 10,
+      "minOrder": 1000,
+      "expiresAt": null,
+      "usageLimit": 500,
+      "usedCount": 34,
+      "active": true,
+      "createdAt": "2026-09-02T07:27:00.000Z"
+    },
+    {
+      "id": "coupon-fire500",
+      "code": "FIRE500",
+      "description": "Rs 500 off orders over Rs 2,500.",
+      "type": "fixed",
+      "value": 500,
+      "minOrder": 2500,
+      "expiresAt": "2026-12-16T14:21:28.571Z",
+      "usageLimit": 200,
+      "usedCount": 12,
+      "active": true,
+      "createdAt": "2026-10-12T07:11:00.000Z"
+    },
+    {
+      "id": "coupon-weekend",
+      "code": "WEEKEND15",
+      "description": "15% off weekend sharing platters. Minimum Rs 4,000.",
+      "type": "percent",
+      "value": 15,
+      "minOrder": 4000,
+      "expiresAt": "2026-11-16T14:21:28.571Z",
+      "usageLimit": 100,
+      "usedCount": 8,
+      "active": true,
+      "createdAt": "2026-10-22T07:37:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "userId": null,
+      "name": "Zara Ahmed",
+      "email": "demo@untouch.pk",
+      "productId": "p-untouchable",
+      "productName": "The Untouchable",
+      "rating": 5,
+      "title": "The burger to beat in Karachi",
+      "comment": "I have eaten a lot of burgers. The Untouchable is the first one in years that made me stop talking. The burnt onion jam is the whole thing — sweet, dark, a little smoky. Packaging arrived hot.",
+      "approved": true,
+      "createdAt": "2026-10-26T07:09:00.000Z"
+    },
+    {
+      "id": "rev-2",
+      "userId": null,
+      "name": "Ali Raza",
+      "email": "ali@example.com",
+      "productId": "p-short-rib",
+      "productName": "12-Hour Short Rib",
+      "rating": 5,
+      "title": "Worth every rupee",
+      "comment": "Ordered for a birthday dinner. The short rib fell apart under a fork and the jus was unreal. Delivery was ten minutes earlier than promised. This is restaurant-quality food at home.",
+      "approved": true,
+      "createdAt": "2026-10-21T07:45:00.000Z"
+    },
+    {
+      "id": "rev-3",
+      "userId": null,
+      "name": "Fatima Noor",
+      "email": "fatima@example.com",
+      "productId": "p-diavola",
+      "productName": "Diavola",
+      "rating": 5,
+      "title": "That chilli honey",
+      "comment": "The crust is properly charred and the chilli honey makes it. Spicy enough to notice, not enough to ruin the rest of the meal. We have ordered it three weekends in a row.",
+      "approved": true,
+      "createdAt": "2026-10-28T07:44:00.000Z"
+    },
+    {
+      "id": "rev-4",
+      "userId": null,
+      "name": "Hamza Siddiqui",
+      "email": "hamza@example.com",
+      "productId": "p-ember-chicken",
+      "productName": "Ember Chicken",
+      "rating": 5,
+      "title": "The chicken is the surprise",
+      "comment": "Came for the burgers, stayed for the chicken. Charred skin, still juicy inside, and the toum is dangerously good. My only complaint is that I did not order the whole bird.",
+      "approved": true,
+      "createdAt": "2026-10-24T07:35:00.000Z"
+    },
+    {
+      "id": "rev-5",
+      "userId": null,
+      "name": "Mariam Qureshi",
+      "email": "mariam@example.com",
+      "productId": "p-basque",
+      "productName": "Burnt Basque Cheesecake",
+      "rating": 5,
+      "title": "Burnt, in the best way",
+      "comment": "The top is properly caramelised and the middle is almost custard. Not overly sweet. We ate it straight from the box, standing in the kitchen. No regrets.",
+      "approved": true,
+      "createdAt": "2026-10-29T07:22:00.000Z"
+    },
+    {
+      "id": "rev-6",
+      "userId": null,
+      "name": "Bilal Khan",
+      "email": "bilal@example.com",
+      "productId": "p-smoked-platter",
+      "productName": "Smoked Platter for Two",
+      "rating": 4,
+      "title": "A serious feed",
+      "comment": "Enough food for three, honestly. The brisket and ribs were excellent; I would have liked one more sauce. Delivery packaging was careful and everything was still warm.",
+      "approved": true,
+      "createdAt": "2026-10-19T07:50:00.000Z"
+    },
+    {
+      "id": "rev-7",
+      "userId": null,
+      "name": "Sana Iqbal",
+      "email": "sana@example.com",
+      "productId": "p-truffle-rigatoni",
+      "productName": "Truffle Rigatoni",
+      "rating": 5,
+      "title": "Restaurant quality",
+      "comment": "Rich without being heavy. The truffle is present but not shouting. Arrived hot and the pasta still had bite.",
+      "approved": false,
+      "createdAt": "2026-10-31T07:46:00.000Z"
+    },
+    {
+      "id": "rev-8",
+      "userId": null,
+      "name": "Omar Farooq",
+      "email": "omar@example.com",
+      "productId": "p-fire-wings",
+      "productName": "Korean Fire Wings",
+      "rating": 5,
+      "title": "Sticky, hot, perfect",
+      "comment": "Best wings I have had in the city. The glaze is properly spicy and the wings stayed crisp on delivery.",
+      "approved": false,
+      "createdAt": "2026-10-31T15:46:00.000Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "banner-fire-series",
+      "eyebrow": "The Fire Series",
+      "title": "A menu built around smoke.",
+      "subtitle": "Six limited plates, fired over hardwood. Available every evening until they're gone.",
+      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=2000&q=85",
+      "ctaLabel": "Explore the series",
+      "ctaHref": "/menu?badge=Signature",
+      "placement": "home",
+      "order": 1,
+      "active": true,
+      "createdAt": "2026-10-12T07:27:00.000Z"
+    },
+    {
+      "id": "banner-friday",
+      "eyebrow": "Fridays, smoked",
+      "title": "Ribs, bourbon glaze, no ceremony.",
+      "subtitle": "Our 12-hour short rib is the reason Fridays exist. Order before 9pm.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=2000&q=85",
+      "ctaLabel": "Order the short rib",
+      "ctaHref": "/menu/12-hour-short-rib",
+      "placement": "home",
+      "order": 2,
+      "active": true,
+      "createdAt": "2026-10-18T07:29:00.000Z"
+    },
+    {
+      "id": "banner-sweet",
+      "eyebrow": "The finish",
+      "title": "Burnt on purpose.",
+      "subtitle": "Basque cheesecake, dark chocolate fondant and vanilla bean gelato.",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=2000&q=85",
+      "ctaLabel": "See desserts",
+      "ctaHref": "/categories/desserts",
+      "placement": "home",
+      "order": 3,
+      "active": true,
+      "createdAt": "2026-10-23T07:48:00.000Z"
+    },
+    {
+      "id": "banner-menu",
+      "eyebrow": "Kitchen note",
+      "title": "Everything is fired to order.",
+      "subtitle": "Expect 15–25 minutes. Good food should not be rushed — and neither should you.",
+      "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=2000&q=85",
+      "ctaLabel": "Start with signatures",
+      "ctaHref": "/menu?featured=true",
+      "placement": "menu",
+      "order": 1,
+      "active": true,
+      "createdAt": "2026-10-02T07:12:00.000Z"
+    }
+  ],
+  "settings": [
+    {
+      "restaurantName": "UNTOUCH",
+      "tagline": "Taste the untamed",
+      "logoUrl": "",
+      "phone": "+92 21 3456 7890",
+      "whatsapp": "+92 300 1234567",
+      "email": "hello@untouch.pk",
+      "address": "Plot 24, Khayaban-e-Shahbaz, DHA Phase VI",
+      "city": "Karachi",
+      "deliveryFee": 199,
+      "freeDeliveryThreshold": 3500,
+      "minOrder": 800,
+      "hours": "12:00 PM — 1:00 AM",
+      "openDays": "Monday — Sunday",
+      "isOpen": true,
+      "announcement": "Fired fresh, delivered hot — free delivery on orders above Rs 3,500",
+      "socials": {
+        "instagram": "https://instagram.com/untouch",
+        "facebook": "https://facebook.com/untouch",
+        "tiktok": "https://tiktok.com/@untouch"
+      },
+      "homepage": {
+        "heroEyebrow": "Karachi · Fire Kitchen · Est. 2024",
+        "heroTitle": "Taste the",
+        "heroAccent": "untamed.",
+        "heroSubtitle": "Wood-fired burgers, slow-smoked beef and plates built around live fire. Made from scratch, delivered with intent.",
+        "storyTitle": "We built a kitchen around one idea: restraint.",
+        "storyBody": "UNTOUCH began as a six-seat counter with a single grill and a short menu. No shortcuts, no freezer, no noise. Today the room is bigger, but the rules are the same: source properly, cook over fire, and let the ingredients speak. Every sauce is made in-house. Every bun is baked the same morning. Every plate leaves the pass only when it is right.",
+        "storyImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=2000&q=85",
+        "featuredTitle": "The signatures",
+        "featuredSubtitle": "Six plates that define the kitchen. Cooked over fire, finished by hand."
+      },
+      "metaDescription": "UNTOUCH is a fire-led restaurant in Karachi serving wood-fired burgers, slow-smoked BBQ, pizza and desserts. Order online for delivery.",
+      "updatedAt": "2026-10-29T07:18:00.000Z",
+      "id": "restaurant"
+    }
+  ],
+  "newsletterSubscribers": [],
+  "sessions": [],
+  "passwordResets": []
+}
