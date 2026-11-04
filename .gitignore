@@ -45,3 +45,15 @@ build/
 *.pem
 service-account*.json
 firebase-adminsdk-*.json
+
+node_modules/
+.next/
+dist/
+build/
+.vercel/
+.env
+.env.*
+!.env.example
+*.pem
+service-account*.json
+firebase-adminsdk-*.json
